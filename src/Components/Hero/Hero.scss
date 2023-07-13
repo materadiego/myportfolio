@@ -1,0 +1,96 @@
+.Hero {
+  position: relative;
+  width: 100%;
+}
+
+.Background-Parallax-Container {
+  height: 140vw;
+}
+
+.Mountain-Parallax-Container {
+  height: 140vw;
+  margin-top: -140vw;
+}
+
+.Overlay-Parallax-Container {
+  height: 140vw;
+  margin-top: -140vw;
+}
+
+.HeroParallaxContent,
+.HeroParallaxContent-Mountain,
+.HeroParallaxContent-Overlay {
+  height: 140vw;
+}
+
+.HeroParallaxContent-Title {
+  position: absolute;
+  width: 70vw;
+  margin: 0 15vw;
+  top: 26vw;
+  color: $color-white;
+}
+
+.HeroParallaxContent-Text {
+  position: absolute;
+  width: 70vw;
+  margin: 0 15vw;
+  top: 39vw;
+  color: white;
+  color: $color-white;
+}
+
+.HeroButton {
+  position: absolute;
+  margin-left: 15vw;
+  top: 63vw;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1099px) {
+  .Background-Parallax-Container {
+    height: 50vw;
+  }
+
+  .Mountain-Parallax-Container {
+    height: 50vw;
+    margin-top: -50vw;
+  }
+
+  .Overlay-Parallax-Container {
+    height: 50vw;
+    margin-top: -50vw;
+  }
+
+  .HeroParallaxContent,
+  .HeroParallaxContent-Mountain,
+  .HeroParallaxContent-Overlay {
+    height: 50vw;
+  }
+
+  .HeroParallaxContent-Title {
+    width: 39vw;
+    left: 4vw;
+    top: 2vw;
+    margin: 0;
+    padding: 1vw 0;
+    font-size: 3.5vw;
+    color: $color-white;
+  }
+
+  .HeroParallaxContent-Text {
+    width: 34vw;
+    left: 4vw;
+    margin: 0;
+    top: 9vw;
+    font-size: 1.4vw;
+  }
+
+  .HeroButton {
+    position: absolute;
+    margin-left: 0;
+    left: 4vw;
+    top: 14.5vw;
+    text-decoration: none;
+  }
+}

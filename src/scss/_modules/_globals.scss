@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $Font2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  min-height: 100vh;
+  position: relative;
+  background: $primary-bg;
+}
+
+.SectionContainer {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 30px;
+  position: relative;
+  color: $color-white;
+}
+
+.SectionTitle {
+  display: flex;
+  align-items: center;
+  & img {
+    width: 12vw;
+    margin-right: 2vw;
+    margin-left: -1vw;
+  }
+}
+
+.Title {
+  font-size: 8vw;
+  padding: 1vw 0;
+  font-weight: 600;
+}
+
+.Subtitle {
+  text-transform: uppercase;
+  font-weight: 500;
+
+  font-family: $Font1;
+}
+
+.Text {
+  font-size: 4.5vw;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.Button {
+  padding: 0 8vw;
+  height: 12vw;
+  font-size: 4.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  will-change: background-color;
+  color: $color-white;
+  background-color: $button-bg;
+
+  &:hover {
+    background-color: $button-hover-bg;
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  .PageContainer {
+    width: 75%;
+    margin-left: 25%;
+  }
+
+  .SectionContainer {
+    width: 65%;
+    border-radius: 32px;
+  }
+
+  .SectionTitle {
+    justify-content: center;
+    & img {
+      width: 3vw;
+      margin-right: 0.5vw;
+      margin-left: -0.4vw;
+    }
+  }
+
+  .Title {
+    font-size: 40px;
+    padding: 0;
+  }
+
+  .Subtitle {
+    font-size: 26px;
+  }
+
+  .Text {
+    font-size: 20px;
+  }
+
+  .Button {
+    padding: 0 3vw;
+    height: 3vw;
+    font-size: 1.5vw;
+  }
+}

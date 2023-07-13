@@ -1,0 +1,78 @@
+.AboutMe {
+  height: 210vw;
+  padding-top: 25vw;
+  background-color: #000000;
+  box-shadow: 0 0 50px 20px rgba(0, 0, 0, 1);
+  position: relative;
+  z-index: 2;
+}
+
+.AboutMe-TextContainer {
+  overflow: hidden;
+  padding: 4px;
+  background-color: $primary-bg;
+}
+
+.AboutMe-TextWrapper {
+  border-radius: 28px;
+  padding: 3vw 7vw 10vw;
+  position: relative;
+  z-index: 2;
+  background-color: $primary-bg;
+}
+
+.AboutMe-Title {
+}
+
+.Aboutme-WrapperBg {
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  top: -5%;
+  left: -5%;
+  // background: rgb(169, 89, 252);
+  // background: linear-gradient(
+  //   39deg,
+  //   rgba(169, 89, 252, 1) 11%,
+  //   rgba(10, 238, 240, 1) 23%,
+  //   rgba(15, 225, 226, 1) 48%,
+  //   rgba(219, 57, 218, 1) 78%
+  // );
+  // background: rgb(38, 205, 207);
+  // background: linear-gradient(
+  //   167deg,
+  //   rgba(38, 205, 207, 1) 16%,
+  //   rgba(150, 39, 150, 1) 74%
+  // );
+  background: rgb(24, 101, 101);
+  background: linear-gradient(
+    167deg,
+    rgba(24, 101, 101, 1) 16%,
+    rgba(92, 16, 92, 1) 74%
+  );
+  // background: rgb(24, 101, 101);
+  // background: linear-gradient(
+  //   167deg,
+  //   rgba(24, 101, 101, 1) 16%,
+  //   rgba(92, 16, 92, 1) 74%
+  // );
+}
+
+@media screen and (min-width: 1099px) {
+  .AboutMe {
+    height: 50vw;
+    padding-top: 5vw;
+  }
+
+  .AboutMe-TextContainer {
+    padding: 6px;
+  }
+
+  .AboutMe-TextWrapper {
+    border-radius: 28px;
+    padding: 2vw 3vw 10vw;
+    position: relative;
+    z-index: 2;
+    background-color: $primary-bg;
+  }
+}

@@ -1,0 +1,49 @@
+.Skills {
+  position: relative;
+  width: 100%;
+  padding-top: 0vw;
+}
+
+.Skills-Parallax-Container,
+.SkillsParallaxContent,
+.SkillsParallaxContent-Overlay,
+.SkillsContentContainer {
+  height: 300vw;
+}
+
+.SkillOverlay-Parallax-Container {
+  height: 300vw;
+  margin-top: -300vw;
+}
+
+.SkillsContentContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 30vw;
+}
+
+@media screen and (min-width: 1099px) {
+  .Skills {
+    position: relative;
+    width: 100%;
+    padding-top: 0vw;
+  }
+
+  .Skills-Parallax-Container,
+  .SkillsParallaxContent,
+  .SkillsParallaxContent-Overlay,
+  .SkillsContentContainer {
+    height: 100vw;
+  }
+
+  .SkillOverlay-Parallax-Container {
+    height: 100vw;
+    margin-top: -100vw;
+  }
+
+  .SkillsContentContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 8vw;
+  }
+}

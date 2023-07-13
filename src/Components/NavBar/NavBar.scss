@@ -1,0 +1,269 @@
+.NavBar {
+  width: 100%;
+  height: 20vw;
+  padding: 4vw 0;
+  position: absolute;
+  background-color: $primary-bg;
+}
+
+.NavBarContainer {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  padding: 0;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 10;
+  transition: 0.3s;
+  will-change: margin;
+  background-color: $secondary-bg;
+
+  &__Inactive {
+    margin-left: -100%;
+  }
+  &__Active {
+    margin-left: 0;
+  }
+}
+
+.MenuButton {
+  width: 9vw;
+  height: 9vw;
+  left: 6vw;
+  top: 6vw;
+  z-index: 200;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  will-change: transform border-radius border;
+  transition: 0.3s;
+  &__Active {
+    transform: rotateZ(-135deg);
+    border-radius: 50vw;
+    border: 6px solid $secondary-text;
+  }
+  &__Inactive {
+    transform: rotateZ(0deg);
+    border-radius: 0vw;
+    border: 0px solid $primary-bg;
+  }
+}
+
+.MenuButtonContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MenuButton-Span {
+  width: 2.3vw;
+  height: 2.3vw;
+  border-radius: 0;
+  will-change: width height border-radius;
+  transition: 0.3s;
+  background: $secondary-text;
+  &__Active {
+    &--1 {
+      border-top-left-radius: 50vw;
+    }
+    &--2 {
+      border-top-right-radius: 50vw;
+    }
+    &--3 {
+      border-bottom-left-radius: 50vw;
+    }
+    &--4 {
+      border-bottom-right-radius: 50vw;
+    }
+  }
+  &__Inactive {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50vw;
+  }
+}
+
+.ProfileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+
+  color: $color-white;
+}
+
+.ProfileCard-ImageContainer {
+  width: 45vw;
+  height: 45vw;
+  margin: 15vw 0 3vw;
+  padding: 4px;
+  border-radius: 50vw;
+  background: rgb(24, 101, 101);
+  background: linear-gradient(
+    140deg,
+    rgba(24, 101, 101, 1) 16%,
+    rgba(92, 16, 92, 1) 74%
+  );
+  box-shadow: $shadow1;
+}
+
+.ProfileCard-ImageWrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 50vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  background: rgb(33, 37, 41);
+  background: radial-gradient(
+    circle,
+    rgb(42, 47, 51) 38%,
+    rgba(0, 0, 0, 1) 99%
+  );
+}
+
+.ProfileCard-Image {
+  width: 90%;
+}
+
+.NavBarTitle.Title {
+  margin: 0;
+  font-size: 10vw;
+  text-transform: capitalize;
+}
+
+.NavBarSubtitle.Subtitle {
+  font-size: 6vw;
+  margin: 0;
+  color: $secondary-text;
+}
+
+.NavBarText.Text {
+  font-size: 5vw;
+  text-transform: capitalize;
+}
+
+.Menu {
+  margin: 8vw 0 0;
+  width: 100%;
+  z-index: 10;
+  background: rgb(24, 101, 101);
+  background: linear-gradient(
+    140deg,
+    rgba(24, 101, 101, 1) 16%,
+    rgba(92, 16, 92, 1) 74%
+  );
+  transition: 0.3s ease-in-out;
+  will-change: box-shadow;
+  color: $color-white;
+  box-shadow: $shadowinset4;
+}
+
+.MenuList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.MenuList .MenuList-Links {
+  width: 50%;
+  font-size: 7vw;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1099px) {
+  .NavBar {
+    width: 25%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 10;
+  }
+
+  .NavBarContainer {
+    position: relative;
+    margin: 0;
+    &__Inactive {
+      margin-left: 0;
+    }
+    &__Active {
+      margin-left: 0;
+    }
+  }
+
+  .MenuButton {
+    display: none;
+  }
+
+  .ProfileCard-ImageContainer {
+    width: 11vw;
+    height: 11vw;
+    margin: 2.5vw 0 1vw;
+  }
+
+  .NavBarTitle.Title {
+    margin: 0;
+    font-size: 2vw;
+  }
+
+  .NavBarSubtitle.Subtitle {
+    font-size: 1.2vw;
+    margin: 0;
+  }
+
+  .NavBarText.Text {
+    font-size: 1vw;
+  }
+
+  .Menu {
+    margin: 2vw 0 0;
+    border-top: 3px solid $terciary-bg;
+    border-bottom: 3px solid $terciary-bg;
+  }
+
+  .MenuList {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1vw 0;
+  }
+
+  .MenuList .MenuList-Links {
+    width: 12vw;
+    position: relative;
+    font-size: 1.5vw;
+    margin: 0 0 0.5vw;
+    padding: 0;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    will-change: background-color;
+    &:hover .MenuList-Links-Shadow {
+      opacity: 1;
+    }
+  }
+
+  .MenuList .MenuList-Links a {
+    z-index: 2;
+    position: relative;
+    padding: 0 1.5vw;
+  }
+
+  .MenuList-Links-Shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    will-change: opacity;
+    transform: skewX(-20deg);
+    background-color: $primary-opacity-bg;
+  }
+}
