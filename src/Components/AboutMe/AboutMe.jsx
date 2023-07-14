@@ -11,7 +11,7 @@ export default function AboutMe() {
               <img src={icon} alt="About-Me"></img>About Me{" "}
             </p>
           </div>
-          <p className="Text">
+          <p className="AboutMe-Text Text">
             Born in Buenos Aires, Argentina in the early 90's. I've always been
             a proactive guy, constantly learning and improving my skills. I've
             been working as an Audio & Lighting technician for a decade,

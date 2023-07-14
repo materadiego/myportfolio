@@ -27,7 +27,6 @@ export default function Skills() {
           </Parallax>
         </div>
       </div>
-      <div className="SkillsParallaxContent"></div>
     </div>
   );
 }

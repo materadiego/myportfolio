@@ -101,13 +101,14 @@
   margin: 15vw 0 3vw;
   padding: 4px;
   border-radius: 50vw;
-  background: rgb(24, 101, 101);
-  background: linear-gradient(
-    140deg,
-    rgba(24, 101, 101, 1) 16%,
-    rgba(92, 16, 92, 1) 74%
-  );
-  box-shadow: $shadow1;
+  // background: rgb(24, 101, 101);
+  // background: linear-gradient(
+  //   140deg,
+  //   rgba(24, 101, 101, 1) 16%,
+  //   rgba(92, 16, 92, 1) 74%
+  // );
+  background: $terciary-bg;
+  box-shadow: $shadow2;
 }
 
 .ProfileCard-ImageWrapper {
@@ -166,14 +167,15 @@
 .MenuList {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vw 0;
 }
 
 .MenuList .MenuList-Links {
-  width: 50%;
+  width: 45%;
   font-size: 7vw;
-  margin: 0 auto;
+  margin: 0 0 0 8%;
 }
 
 @media screen and (min-width: 1099px) {
@@ -232,6 +234,9 @@
     width: 60%;
     margin: 0 auto;
     padding: 1vw 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 
   .MenuList .MenuList-Links {

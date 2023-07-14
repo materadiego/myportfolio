@@ -31,6 +31,10 @@
   color: $color-white;
 }
 
+.HeroParallaxContent-Title.Title {
+  font-size: 6vw;
+}
+
 .HeroParallaxContent-Text {
   position: absolute;
   width: 70vw;
@@ -74,16 +78,22 @@
     top: 2vw;
     margin: 0;
     padding: 1vw 0;
-    font-size: 3.5vw;
     color: $color-white;
+  }
+
+  .HeroParallaxContent-Title.Title {
+    font-size: 3.5vw;
   }
 
   .HeroParallaxContent-Text {
     width: 34vw;
     left: 4vw;
     margin: 0;
-    top: 9vw;
-    font-size: 1.4vw;
+    top: 9.5vw;
+  }
+
+  .HeroParallaxContent-Text.Text {
+    font-size: 1.2vw;
   }
 
   .HeroButton {

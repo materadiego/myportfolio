@@ -51,20 +51,21 @@ a {
 .Subtitle {
   text-transform: uppercase;
   font-weight: 500;
-
   font-family: $Font1;
 }
 
 .Text {
-  font-size: 4.5vw;
+  font-size: 4.2vw;
   line-height: 150%;
   font-weight: 400;
+  font-family: $Font3;
 }
 
 .Button {
   padding: 0 8vw;
   height: 12vw;
   font-size: 4.5vw;
+  font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 5px;
@@ -77,7 +78,7 @@ a {
   will-change: background-color;
   color: $color-white;
   background-color: $button-bg;
-
+  font-family: $Font3;
   &:hover {
     background-color: $button-hover-bg;
   }
@@ -90,7 +91,6 @@ a {
   }
 
   .SectionContainer {
-    width: 65%;
     border-radius: 32px;
   }
 

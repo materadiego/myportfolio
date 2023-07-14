@@ -76,11 +76,11 @@ export default function NavBar() {
             <li className="MenuList-Links">
               <div className="MenuList-Links-Shadow"></div>
 
-              <a href="">Development</a>
+              <a href="#Development">Development</a>
             </li>
             <li className="MenuList-Links">
               <div className="MenuList-Links-Shadow"></div>
-              <a href="">Contact</a>
+              <a href="#Contact">Contact</a>
             </li>
           </ul>
         </nav>

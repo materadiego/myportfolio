@@ -6,6 +6,8 @@ import rDesign from "../../Assets/Images/responsive.png";
 import js from "../../Assets/Images/js.png";
 import ghub from "../../Assets/Images/github.png";
 import react from "../../Assets/Images/react.png";
+import ps from "../../Assets/Images/ps.png";
+import webpack from "../../Assets/Images/webpack.png";
 
 export default function SkillsContainer() {
   return (
@@ -18,7 +20,7 @@ export default function SkillsContainer() {
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
             <div className="SkillBox-ImageContainer">
-              <img src={html} alt="ReactJS"></img>
+              <img className="SkillBox-Image HTML" src={html} alt="HTML"></img>
             </div>
             <p className="SkillBox-Title Text">HTML</p>
           </div>
@@ -27,9 +29,9 @@ export default function SkillsContainer() {
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
             <div className="SkillBox-ImageContainer">
-              <img src={css} alt="ReactJS"></img>
+              <img className="SkillBox-Image Css" src={css} alt="CSS"></img>
             </div>
-            <p className="SkillBox-Title Text">CSS</p>
+            <p className="SkillBox-Title Text ">CSS</p>
           </div>
         </div>
 
@@ -37,7 +39,7 @@ export default function SkillsContainer() {
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
             <div className="SkillBox-ImageContainer">
-              <img src={sass} alt="ReactJS"></img>
+              <img className="SkillBox-Image Sass" src={sass} alt="Sass"></img>
             </div>
             <p className="SkillBox-Title Text">Sass</p>
           </div>
@@ -47,7 +49,11 @@ export default function SkillsContainer() {
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
             <div className="SkillBox-ImageContainer">
-              <img src={rDesign} alt="ReactJS"></img>
+              <img
+                className="SkillBox-Image Rd"
+                src={rDesign}
+                alt="Responsive"
+              ></img>
             </div>
             <p className="SkillBox-Title Text">Responsive</p>
           </div>
@@ -57,7 +63,11 @@ export default function SkillsContainer() {
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
             <div className="SkillBox-ImageContainer">
-              <img src={js} alt="ReactJS"></img>
+              <img
+                className="SkillBox-Image Js"
+                src={js}
+                alt="Javascript"
+              ></img>
             </div>
             <p className="SkillBox-Title Text">Javascript</p>
           </div>
@@ -67,9 +77,35 @@ export default function SkillsContainer() {
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
             <div className="SkillBox-ImageContainer">
-              <img src={react} alt="ReactJS"></img>
+              <img
+                className="SkillBox-Image React"
+                src={react}
+                alt="ReactJS"
+              ></img>
             </div>
             <p className="SkillBox-Title Text">ReactJS</p>
+          </div>
+        </div>
+        {/* Box */}
+        <div className="SkillBoxWrapper">
+          <div className="SkillBox">
+            <div className="SkillBox-ImageContainer">
+              <img
+                className="SkillBox-Image Webpack"
+                src={webpack}
+                alt="Webpack"
+              ></img>
+            </div>
+            <p className="SkillBox-Title Text">Webpack</p>
+          </div>
+        </div>
+        {/* Box */}
+        <div className="SkillBoxWrapper">
+          <div className="SkillBox">
+            <div className="SkillBox-ImageContainer ">
+              <img className="SkillBox-Image Gh" src={ghub} alt="GitHub"></img>
+            </div>
+            <p className="SkillBox-Title Text">GitHub</p>
           </div>
         </div>
 
@@ -77,9 +113,9 @@ export default function SkillsContainer() {
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
             <div className="SkillBox-ImageContainer">
-              <img src={ghub} alt="ReactJS"></img>
+              <img className="SkillBox-Image Ps" src={ps} alt="Photoshop"></img>
             </div>
-            <p className="SkillBox-Title Text">GitHub</p>
+            <p className="SkillBox-Title Text">Photoshop</p>
           </div>
         </div>
       </div>
