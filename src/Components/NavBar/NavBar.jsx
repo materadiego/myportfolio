@@ -64,21 +64,21 @@ export default function NavBar() {
         </article>
         <nav className="Menu">
           <ul className="MenuList">
-            <li className="MenuList-Links">
+            <li onClick={toggleMenu} className="MenuList-Links">
               <div className="MenuList-Links-Shadow"></div>
               <a href="#AboutMe">About me</a>
             </li>
-            <li className="MenuList-Links">
+            <li onClick={toggleMenu} className="MenuList-Links">
               <div className="MenuList-Links-Shadow"></div>
 
-              <a href="#Skills">Skills</a>
+              <a href="#Skills">My Skills</a>
             </li>
-            <li className="MenuList-Links">
+            <li onClick={toggleMenu} className="MenuList-Links">
               <div className="MenuList-Links-Shadow"></div>
 
-              <a href="#Development">Development</a>
+              <a href="#Development">Projects</a>
             </li>
-            <li className="MenuList-Links">
+            <li onClick={toggleMenu} className="MenuList-Links">
               <div className="MenuList-Links-Shadow"></div>
               <a href="#Contact">Contact</a>
             </li>

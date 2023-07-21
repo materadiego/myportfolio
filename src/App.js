@@ -1,5 +1,4 @@
 import Container from "./Components/Container/Container";
-import Cube from "./Components/Cube/Cube";
 import NavBar from "./Components/NavBar/NavBar";
 import "./scss/Styles.scss";
 

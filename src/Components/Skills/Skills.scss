@@ -26,24 +26,27 @@
   .Skills {
     position: relative;
     width: 100%;
+    z-index: 3;
     padding-top: 0vw;
+    box-shadow: $shadow2;
   }
 
   .Skills-Parallax-Container,
   .SkillsParallaxContent,
   .SkillsParallaxContent-Overlay,
   .SkillsContentContainer {
-    height: 52vw;
+    height: 54vw;
   }
 
   .SkillOverlay-Parallax-Container {
-    height: 52vw;
-    margin-top: -52vw;
+    height: 54vw;
+    margin-top: -54vw;
   }
 
   .SkillsContentContainer {
     display: flex;
     justify-content: center;
     padding-top: 8vw;
+    position: relative;
   }
 }

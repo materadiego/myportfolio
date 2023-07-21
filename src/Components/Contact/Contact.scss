@@ -102,8 +102,7 @@
 .ShadowContainerShadow {
   width: 110%;
   height: 100%;
-  background-color: #000;
-
+  background-color: $variant-bg;
   &__TopRight {
     transform: skewX(-35deg);
     margin-left: -30%;

@@ -1,8 +1,10 @@
 .AboutMe {
   height: 210vw;
-  padding-top: 25vw;
+  height: auto;
+  margin-top: 10vw;
+  padding: 10vw 0 20vw;
   position: relative;
-  z-index: 2;
+  z-index: 4;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
@@ -24,25 +26,46 @@
   box-shadow: $shadowsection;
 }
 
+.AboutMe-TextContainer.SectionContainer {
+  width: 90%;
+}
+
 .AboutMe-TextContainer {
   overflow: hidden;
   padding: 4px;
+  margin: 10vw auto;
   background-color: $primary-bg;
+  box-shadow: $shadow1;
 }
 
 .AboutMe-TextWrapper {
   border-radius: 28px;
-  padding: 3vw 0 10vw;
+  padding: 7vw 0 12vw;
   position: relative;
   z-index: 2;
-  background-color: $primary-bg;
+  background-color: $primary-opacity-bg;
 }
 
 .AboutMe-Title {
+  color: $color-white;
+}
+
+.AboutMe-BoxTitle {
+  width: 80%;
+  font-size: 6vw;
+  font-weight: 600;
+  margin: 0 auto 2vw;
+  color: $text-hover;
+  font-family: $Font1;
 }
 
 .AboutMe-Text {
   margin-top: 2vw;
+  font-size: 4.1vw;
+  font-weight: 300;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 160%;
 }
 
 .Aboutme-WrapperBg {
@@ -82,23 +105,49 @@
 @media screen and (min-width: 1099px) {
   .AboutMe {
     height: 50vw;
-    padding-top: 7vw;
+    height: auto;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw 0 7vw;
   }
-
+  .AboutMe-Title {
+    width: 100%;
+    margin-bottom: 2vw;
+  }
   .AboutMe-TextContainer {
     padding: 6px;
+    margin: 2vw 0;
+  }
+
+  .AboutMe-TextContainer.SectionContainer {
+    width: 70%;
+    margin-left: 10%;
+
+    &:nth-child(3) {
+      margin-left: 20%;
+    }
   }
 
   .AboutMe-TextWrapper {
     border-radius: 28px;
-    padding: 2vw 0 5vw;
+    padding: 2vw 0 3vw;
     position: relative;
     z-index: 2;
-    background-color: $primary-bg;
+  }
+
+  .AboutMe-BoxTitle {
+    width: 80%;
+    font-size: 1.8vw;
+    margin: 0 auto 1vw;
   }
 
   .AboutMe-Text {
+    margin-top: 2vw;
+    font-size: 1.1vw;
+    font-weight: 300;
     width: 80%;
-    margin: 2vw auto 0;
+    margin: 0 auto;
+    line-height: 160%;
   }
 }

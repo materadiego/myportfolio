@@ -16,7 +16,7 @@
   z-index: 10;
   transition: 0.3s;
   will-change: margin;
-  background-color: $secondary-bg;
+  background-color: $primary-bg;
 
   &__Inactive {
     margin-left: -100%;
@@ -42,6 +42,7 @@
   &__Active {
     transform: rotateZ(-135deg);
     border-radius: 50vw;
+    position: fixed;
     border: 6px solid $secondary-text;
   }
   &__Inactive {
@@ -207,7 +208,7 @@
   .ProfileCard-ImageContainer {
     width: 11vw;
     height: 11vw;
-    margin: 2.5vw 0 1vw;
+    margin: 2.5vw 0 0.5vw;
   }
 
   .NavBarTitle.Title {
@@ -217,7 +218,7 @@
 
   .NavBarSubtitle.Subtitle {
     font-size: 1.2vw;
-    margin: 0;
+    margin: 0 0 0.2vw;
   }
 
   .NavBarText.Text {
@@ -231,7 +232,7 @@
   }
 
   .MenuList {
-    width: 60%;
+    width: 48%;
     margin: 0 auto;
     padding: 1vw 0;
     flex-direction: row;
@@ -257,7 +258,7 @@
   .MenuList .MenuList-Links a {
     z-index: 2;
     position: relative;
-    padding: 0 1.5vw;
+    padding: 0 2.5vw;
   }
 
   .MenuList-Links-Shadow {

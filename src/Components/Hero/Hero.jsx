@@ -1,5 +1,6 @@
 import { Parallax } from "react-parallax";
 import HeroBg from "../../Assets/Images/hero-bg3.jpg";
+import Moon from "../../Assets/Images/moon3.png";
 import HeroMountain from "../../Assets/Images/hero-mountain.png";
 import Overlay from "../../Assets/Images/overlay.png";
 import Overlay2 from "../../Assets/Images/overlay2.png";
@@ -7,8 +8,13 @@ export default function Hero() {
   return (
     <div className="Hero">
       <div className="Background-Parallax-Container">
-        <Parallax strength={200} bgImage={HeroBg}>
+        <Parallax strength={400} bgImage={HeroBg}>
           <div className="HeroParallaxContent"></div>
+        </Parallax>
+      </div>
+      <div className="Overlay-Parallax-Container">
+        <Parallax strength={200} bgImage={Moon}>
+          <div className="HeroParallaxContent-Overlay"></div>
         </Parallax>
       </div>
       <div className="Mountain-Parallax-Container">
@@ -28,8 +34,8 @@ export default function Hero() {
               ¡Welcome to my portfolio!
             </p>
             <p className="HeroParallaxContent-Text Text">
-              My name is Diego Matera, I am a frontend developer. ¡Lets move on
-              into this journey!
+              My name is Diego Matera, I am a frontend developer. ¡Lets get into
+              this journey!
             </p>
             <a href="#AboutMe" className="Button HeroButton">
               Start
