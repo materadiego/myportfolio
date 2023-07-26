@@ -12,7 +12,7 @@ export default function Hero() {
           <div className="HeroParallaxContent"></div>
         </Parallax>
       </div>
-      <div className="Overlay-Parallax-Container">
+      <div className="Overlay-Parallax-Container Desktop">
         <Parallax strength={200} bgImage={Moon}>
           <div className="HeroParallaxContent-Overlay"></div>
         </Parallax>

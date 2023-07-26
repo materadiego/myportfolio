@@ -24,12 +24,17 @@ export default function DevelopedProjects() {
           Vernal Studio
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos
-          facere eaque eos, iure iste accusantium! Quasi explicabo quibusdam
-          possimus autem maiores perferendis fuga ipsa aut, voluptatum nostrum
-          id fugit?
+          Graphic design, marketing, UX/UI agency. Single-page application built
+          using ReactJS & Sass.
         </p>
-        <div className="Button Project-Button">project</div>
+        <a
+          href="https://materadiego.github.io/vernal-studio/#/home"
+          target="_blank"
+          rel="noreferrer"
+          className="Button Project-Button"
+        >
+          project
+        </a>
       </div>
       <div className="DevelopmentBoxContainer-Box">
         <div className="DevelopmentBoxContainer-Button">
@@ -46,15 +51,20 @@ export default function DevelopedProjects() {
               alt="Tu-Espacio"
             ></img>
           </span>{" "}
-          Tu espacio
+          Tu Espacio
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos
-          facere eaque eos, iure iste accusantium! Quasi explicabo quibusdam
-          possimus autem maiores perferendis fuga ipsa aut, voluptatum nostrum
-          id fugit?
+          Interior design company. Single-page application built using ReactJS &
+          Sass.
         </p>
-        <div className="Button Project-Button">project</div>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://materadiego.github.io/tu-espacio-react/"
+          className="Button Project-Button"
+        >
+          project
+        </a>
       </div>
       <div className="DevelopmentBoxContainer-Box">
         <div className="DevelopmentBoxContainer-Button">
@@ -74,12 +84,17 @@ export default function DevelopedProjects() {
           Daleplast
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos
-          facere eaque eos, iure iste accusantium! Quasi explicabo quibusdam
-          possimus autem maiores perferendis fuga ipsa aut, voluptatum nostrum
-          id fugit?
+          Plastic products manufacturer in Tierra del Fuego, Argentina.
+          Single-page application built using ReactJS & Sass
         </p>
-        <div className="Button Project-Button">project</div>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="http://www.daleplast.com.ar/"
+          className="Button Project-Button"
+        >
+          project
+        </a>
       </div>
 
       <div className="DevelopmentBoxContainer-Box">
@@ -100,12 +115,16 @@ export default function DevelopedProjects() {
           Cocinas Ocultas
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos
-          facere eaque eos, iure iste accusantium! Quasi explicabo quibusdam
-          possimus autem maiores perferendis fuga ipsa aut, voluptatum nostrum
-          id fugit?
+          Entrepreneurship in Uruguay. Developed using HTML5, CSS3 & Javascript.
         </p>
-        <div className="Button Project-Button">project</div>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://materadiego.github.io/cocinas-ocultas/"
+          className="Button Project-Button"
+        >
+          project
+        </a>
       </div>
     </div>
   );

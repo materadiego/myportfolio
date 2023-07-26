@@ -51,6 +51,9 @@
   text-decoration: none;
 }
 
+.Overlay-Parallax-Container.Desktop {
+  display: none;
+}
 @media screen and (min-width: 1099px) {
   .Background-Parallax-Container {
     height: 50vw;
@@ -102,5 +105,8 @@
     left: 4vw;
     top: 14.5vw;
     text-decoration: none;
+  }
+  .Overlay-Parallax-Container.Desktop {
+    display: block;
   }
 }

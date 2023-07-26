@@ -86,6 +86,15 @@ a {
 }
 
 @media screen and (min-width: 1099px) {
+  body::-webkit-scrollbar {
+    background-color: #101a1f;
+    width: 10px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: $terciary-bg;
+  }
+
   .PageContainer {
     width: 75%;
     margin-left: 25%;

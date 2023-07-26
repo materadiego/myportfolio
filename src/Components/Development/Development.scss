@@ -204,6 +204,7 @@
 }
 
 .ParallaxImage {
+  background-image: url(../../Assets/Images/animations-normalparallax.png);
 }
 
 .AnimatedCube1Image {
@@ -324,9 +325,10 @@
 
   .DevelopmentBoxContainer-Description {
     font-size: 1vw;
-    width: 75%;
+    width: 70%;
     margin: 1.5vw 0 2vw;
     display: flex;
+    height: 6.5vw;
   }
 
   .DevelopmentBoxContainer-Image {

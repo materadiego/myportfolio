@@ -123,6 +123,21 @@
   }
 }
 
+.ContactResponseContainer {
+  text-align: center;
+  width: 100%;
+  margin-top: 4vw;
+  padding: 5vw 0;
+  position: relative;
+}
+
+.ContactResponseContainer__Loader {
+  width: 12vw;
+  position: absolute;
+  top: -16.5vw;
+  left: 38%;
+}
+
 @media screen and (min-width: 1099px) {
   .Contact {
     height: 44vw;
@@ -232,5 +247,17 @@
     &__BottomRight {
       width: 14%;
     }
+  }
+
+  .ContactResponseContainer {
+    margin-top: 0.5vw;
+    padding: 0.5vw 0;
+    font-size: 1.1vw;
+  }
+
+  .ContactResponseContainer__Loader {
+    width: 3.5vw;
+    top: -3.7vw;
+    left: 36%;
   }
 }
