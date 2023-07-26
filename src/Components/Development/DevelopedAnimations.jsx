@@ -8,7 +8,7 @@ export default function DevelopedAnimations() {
           <div className="DevelopmentBoxContainer-ButtonLine1"></div>
           <div className="DevelopmentBoxContainer-ButtonLine2"></div>
         </div>
-        <div className="DevelopmentBoxContainer-Image TransitionsImage"></div>
+        <div className="DevelopmentBoxContainer-Image ParallaxBgImage"></div>
         <p className="DevelopmentBoxContainer-Title ">
           <span className="DevelopmentBoxContainer--FaviconContainer">
             {" "}
@@ -18,15 +18,19 @@ export default function DevelopedAnimations() {
               alt="Vernal"
             ></img>
           </span>
-          Tridimensional Parallax
+          Background Parallax
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos
-          facere eaque eos, iure iste accusantium! Quasi explicabo quibusdam
-          possimus autem maiores perferendis fuga ipsa aut, voluptatum nostrum
-          id fugit?
+          "Moving Background". Animation developed using HTML5 & CSS3.
         </p>
-        <div className="Button Project-Button">project</div>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://materadiego.github.io/parallax-animated-background/"
+          className="Button Project-Button"
+        >
+          project
+        </a>
       </div>
       <div className="DevelopmentBoxContainer-Box">
         <div className="DevelopmentBoxContainer-Button">
@@ -47,12 +51,11 @@ export default function DevelopedAnimations() {
           Parallax Animations
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos
-          facere eaque eos, iure iste accusantium! Quasi explicabo quibusdam
-          possimus autem maiores perferendis fuga ipsa aut, voluptatum nostrum
-          id fugit?
+          Background image animation using react-parallax. Developed in ReactJS.
         </p>
         <a
+          target="_blank"
+          rel="noreferrer"
           href="https://materadiego.github.io/parallax-animation-demo/"
           className="Button Project-Button"
         >
@@ -77,12 +80,12 @@ export default function DevelopedAnimations() {
           3D Animated Cube
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos
-          facere eaque eos, iure iste accusantium! Quasi explicabo quibusdam
-          possimus autem maiores perferendis fuga ipsa aut, voluptatum nostrum
-          id fugit?
+          Animated color changing tridimensional cube, developed using HTML5 &
+          CSS3.
         </p>
         <a
+          target="_blank"
+          rel="noreferrer"
           href="https://materadiego.github.io/cube-animation2/"
           className="Button Project-Button"
         >
@@ -107,12 +110,11 @@ export default function DevelopedAnimations() {
           Background Animation
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos
-          facere eaque eos, iure iste accusantium! Quasi explicabo quibusdam
-          possimus autem maiores perferendis fuga ipsa aut, voluptatum nostrum
-          id fugit?
+          Animation developed using HTML5 & CSS3.
         </p>
         <a
+          target="_blank"
+          rel="noreferrer"
           href="https://materadiego.github.io/prueba-animacion-css/"
           className="Button Project-Button"
         >

@@ -188,6 +188,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: $primary-bg;
 }
 
 .VernalImage {
@@ -201,6 +202,10 @@
 }
 .CocinasImage {
   background-image: url(../../Assets/Images/cocinas.png);
+}
+
+.ParallaxBgImage {
+  background-image: url(../../Assets/Images/animations-parallaxbg.png);
 }
 
 .ParallaxImage {
