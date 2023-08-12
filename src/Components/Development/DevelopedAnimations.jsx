@@ -18,7 +18,7 @@ export default function DevelopedAnimations() {
               alt="Vernal"
             ></img>
           </span>
-          Background Parallax
+          Bg Parallax
         </p>
         <p className="DevelopmentBoxContainer-Description">
           "Moving Background". Animation developed using HTML5 & CSS3.
@@ -107,7 +107,7 @@ export default function DevelopedAnimations() {
               alt="Vernal"
             ></img>
           </span>
-          Background Animation
+          Bg Animation
         </p>
         <p className="DevelopmentBoxContainer-Description">
           Animation developed using HTML5 & CSS3.

@@ -15,7 +15,7 @@
   z-index: 1;
   background-image: url(../../Assets/Images/development-bg22.jpg);
   background-size: 200%;
-  background-position: center 30%;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
@@ -191,6 +191,10 @@
   background-color: $primary-bg;
 }
 
+.MyTaskImage {
+  background-image: url(../../Assets/Images/mytask.png);
+}
+
 .VernalImage {
   background-image: url(../../Assets/Images/vernal.png);
 }
@@ -202,6 +206,9 @@
 }
 .AuraImage {
   background-image: url(../../Assets/Images/aura-films.png);
+}
+.CocinasImage {
+  background-image: url(../../Assets/Images/cocinas.png);
 }
 
 .ParallaxBgImage {
@@ -240,6 +247,8 @@
   .Development {
     height: auto;
     padding: 5vw 0 8vw;
+    background-size: 200%;
+    background-repeat: round;
   }
   .DevelopmentContainer {
     height: auto;
