@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/materadiego/myportfolio/gh-pages/static/css/main.3a84aae1.css",
+    "main.js": "/materadiego/myportfolio/gh-pages/static/js/main.dee60c2d.js",
+    "static/js/787.1f11dfe9.chunk.js": "/materadiego/myportfolio/gh-pages/static/js/787.1f11dfe9.chunk.js",
+    "static/media/skills-bg4.jpg": "/materadiego/myportfolio/gh-pages/static/media/skills-bg4.8192ff766ec268737b37.jpg",
+    "static/media/skills-bg5.jpg": "/materadiego/myportfolio/gh-pages/static/media/skills-bg5.eab7b36981c4307a1896.jpg",
+    "static/media/minimal-bg.jpg": "/materadiego/myportfolio/gh-pages/static/media/minimal-bg.9fc036284a6a0899340d.jpg",
+    "static/media/animations-normalparallax.png": "/materadiego/myportfolio/gh-pages/static/media/animations-normalparallax.05ae72c5628e709be5e3.png",
+    "static/media/daleplast.png": "/materadiego/myportfolio/gh-pages/static/media/daleplast.fd7c873962e0e4951a44.png",
+    "static/media/aura-films.png": "/materadiego/myportfolio/gh-pages/static/media/aura-films.635e953571467f809916.png",
+    "static/media/contact-bg8.jpg": "/materadiego/myportfolio/gh-pages/static/media/contact-bg8.82db611c3e2918f170f7.jpg",
+    "static/media/component-landing.png": "/materadiego/myportfolio/gh-pages/static/media/component-landing.36d8893599a89e34eca7.png",
+    "static/media/development-bg22.jpg": "/materadiego/myportfolio/gh-pages/static/media/development-bg22.ac1cf34262a7c99a12c9.jpg",
+    "static/media/animations-transiciones.png": "/materadiego/myportfolio/gh-pages/static/media/animations-transiciones.bf3ae7be6d4078522d55.png",
+    "static/media/animations-kombi.png": "/materadiego/myportfolio/gh-pages/static/media/animations-kombi.133e37545f3c01807e37.png",
+    "static/media/mytask.png": "/materadiego/myportfolio/gh-pages/static/media/mytask.0fe550fdcd211a46ea4b.png",
+    "static/media/animations-parallaxbg.png": "/materadiego/myportfolio/gh-pages/static/media/animations-parallaxbg.cbb8dbd020dad95bfa5e.png",
+    "static/media/tu-espacio.png": "/materadiego/myportfolio/gh-pages/static/media/tu-espacio.1a7216b538ffb1309b78.png",
+    "static/media/avatar2.png": "/materadiego/myportfolio/gh-pages/static/media/avatar2.72e8d6c092af108e7f60.png",
+    "static/media/component-login.png": "/materadiego/myportfolio/gh-pages/static/media/component-login.9e389ce10336713420e0.png",
+    "static/media/cocinas.png": "/materadiego/myportfolio/gh-pages/static/media/cocinas.6d84530649934eededd6.png",
+    "static/media/animations-cube.png": "/materadiego/myportfolio/gh-pages/static/media/animations-cube.43b360091be36bac72bd.png",
+    "static/media/vernal.png": "/materadiego/myportfolio/gh-pages/static/media/vernal.4eaa32e1639556f159d3.png",
+    "static/media/react.png": "/materadiego/myportfolio/gh-pages/static/media/react.e3de6e3e0db846b0628b.png",
+    "static/media/nest.png": "/materadiego/myportfolio/gh-pages/static/media/nest.e80e4583c4da2fe31087.png",
+    "static/media/favicon-vernal.png": "/materadiego/myportfolio/gh-pages/static/media/favicon-vernal.008475ce02e888d4212e.png",
+    "static/media/aboutme-icon.png": "/materadiego/myportfolio/gh-pages/static/media/aboutme-icon.b057408b2171f34159f1.png",
+    "static/media/overlay2.png": "/materadiego/myportfolio/gh-pages/static/media/overlay2.88d1fdd2431fe17600a5.png",
+    "static/media/responsive.png": "/materadiego/myportfolio/gh-pages/static/media/responsive.2bfcb6056fddf6c061ea.png",
+    "index.html": "/materadiego/myportfolio/gh-pages/index.html",
+    "static/media/loader.svg": "/materadiego/myportfolio/gh-pages/static/media/loader.ca197239eb427314443bc846f5b0eb96.svg",
+    "main.3a84aae1.css.map": "/materadiego/myportfolio/gh-pages/static/css/main.3a84aae1.css.map",
+    "main.dee60c2d.js.map": "/materadiego/myportfolio/gh-pages/static/js/main.dee60c2d.js.map",
+    "787.1f11dfe9.chunk.js.map": "/materadiego/myportfolio/gh-pages/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a84aae1.css",
+    "static/js/main.dee60c2d.js"
+  ]
+}
