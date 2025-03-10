@@ -4,14 +4,14 @@ import Development from "../Development/Development";
 import Hero from "../Hero/Hero";
 import Skills from "../Skills/Skils";
 
-export default function Container() {
+export default function Container({ langEn }) {
   return (
     <div className="PageContainer">
-      <Hero />
-      <AboutMe />
-      <Skills />
-      <Development />
-      <Contact />
+      <Hero langEn={langEn} />
+      <AboutMe langEn={langEn} />
+      <Skills langEn={langEn} />
+      <Development langEn={langEn} />
+      <Contact langEn={langEn} />
     </div>
   );
 }

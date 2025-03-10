@@ -1,46 +1,32 @@
 .AboutMe {
-  height: 210vw;
   height: auto;
-  margin-top: 10vw;
-  padding: 10vw 0 20vw;
+  padding: 0vw 0 20vw;
   position: relative;
   z-index: 4;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(26, 29, 32, 1) 23%,
-    rgba(26, 29, 32, 1) 80%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(0, 0, 0, 1) 45%,
+    rgba(14, 23, 27, 1) 100%
   );
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(26, 29, 32, 1) 32%,
-    rgba(33, 37, 41, 1) 50%,
-    rgba(33, 37, 41, 1) 58%,
-    rgba(26, 29, 32, 1) 68%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  box-shadow: $shadowsection;
 }
 
 .AboutMe-TextContainer.SectionContainer {
-  width: 90%;
+  width: 85%;
 }
 
 .AboutMe-TextContainer {
   overflow: hidden;
-  padding: 4px;
   margin: 10vw auto;
+  border-radius: 2vw;
   background-color: $primary-bg;
   box-shadow: $shadow1;
 }
 
 .AboutMe-TextWrapper {
-  border-radius: 28px;
   padding: 7vw 0 12vw;
+  border-radius: 1.7vw;
+
   position: relative;
   z-index: 2;
   background-color: $primary-opacity-bg;
@@ -54,16 +40,16 @@
   width: 80%;
   font-size: 6vw;
   font-weight: 600;
-  margin: 0 auto 2vw;
+  margin: 0 auto 3vw;
   color: $text-hover;
   font-family: $Font1;
 }
 
 .AboutMe-Text {
-  margin-top: 2vw;
-  font-size: 4.1vw;
-  font-weight: 300;
   width: 80%;
+  margin-top: 2vw;
+  font-size: 3.4vw;
+  font-weight: 300;
   margin: 0 auto;
   line-height: 160%;
 }
@@ -74,32 +60,8 @@
   height: 110%;
   top: -5%;
   left: -5%;
-  // background: rgb(169, 89, 252);
-  // background: linear-gradient(
-  //   39deg,
-  //   rgba(169, 89, 252, 1) 11%,
-  //   rgba(10, 238, 240, 1) 23%,
-  //   rgba(15, 225, 226, 1) 48%,
-  //   rgba(219, 57, 218, 1) 78%
-  // );
-  // background: rgb(38, 205, 207);
-  // background: linear-gradient(
-  //   167deg,
-  //   rgba(38, 205, 207, 1) 16%,
-  //   rgba(150, 39, 150, 1) 74%
-  // );
   background: rgb(24, 101, 101);
-  background: linear-gradient(
-    167deg,
-    rgba(24, 101, 101, 1) 16%,
-    rgba(92, 16, 92, 1) 74%
-  );
-  // background: rgb(24, 101, 101);
-  // background: linear-gradient(
-  //   167deg,
-  //   rgba(24, 101, 101, 1) 16%,
-  //   rgba(92, 16, 92, 1) 74%
-  // );
+  background: linear-gradient(167deg, rgb(18, 71, 71) 16%, rgb(23, 6, 23) 74%);
 }
 
 @media screen and (min-width: 1099px) {
@@ -112,32 +74,38 @@
     padding: 2vw 0 7vw;
   }
   .AboutMe-Title {
-    width: 100%;
-    margin-bottom: 2vw;
+    width: 80%;
+    margin: 0 auto 2vw;
+  }
+
+  .about-me-box-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
   }
   .AboutMe-TextContainer {
     padding: 6px;
+    border-radius: 0.3vw;
     margin: 2vw 0;
   }
 
   .AboutMe-TextContainer.SectionContainer {
-    width: 70%;
-    margin-left: 10%;
+    width: 100%;
+    width: 80%;
 
-    &:nth-child(3) {
-      margin-left: 20%;
-    }
+    margin: 1vw auto;
   }
 
   .AboutMe-TextWrapper {
-    border-radius: 28px;
     padding: 2vw 0 3vw;
     position: relative;
+    border-radius: 0.15vw;
     z-index: 2;
   }
 
   .AboutMe-BoxTitle {
-    width: 80%;
+    width: 90%;
     font-size: 1.8vw;
     margin: 0 auto 1vw;
   }
@@ -146,7 +114,7 @@
     margin-top: 2vw;
     font-size: 1.1vw;
     font-weight: 300;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     line-height: 160%;
   }

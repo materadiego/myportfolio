@@ -1,6 +1,6 @@
 import developmentBoxIcon from "../../Assets/Images/development-icon2.png";
 
-export default function DevelopedAnimations() {
+export default function DevelopedAnimations({ langEn }) {
   return (
     <div className="DevelopmentBoxContainer">
       <div className="DevelopmentBoxContainer-Box">
@@ -21,15 +21,17 @@ export default function DevelopedAnimations() {
           Bg Parallax
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          "Moving Background". Animation developed using HTML5 & CSS3.
+          {langEn
+            ? `"Moving Background". Animation developed using HTML5 & CSS3.`
+            : `Animación de "Fondo en movimiento". Desarrollado con HTML5 & CSS3.`}
         </p>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://materadiego.github.io/parallax-animated-background/"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
       <div className="DevelopmentBoxContainer-Box">
@@ -51,15 +53,17 @@ export default function DevelopedAnimations() {
           Parallax Animations
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Background image animation using react-parallax. Developed in ReactJS.
+          {langEn
+            ? `Background image animation using react-parallax. Developed in ReactJS.`
+            : `Animación de imagen de fondo utilizando react-parallax. Desarrollado en ReactJS.`}
         </p>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://materadiego.github.io/parallax-animation-demo/"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
       <div className="DevelopmentBoxContainer-Box">
@@ -80,16 +84,18 @@ export default function DevelopedAnimations() {
           3D Animated Cube
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Animated color changing tridimensional cube, developed using HTML5 &
-          CSS3.
+          {langEn
+            ? `Animated color changing tridimensional cube, developed using HTML5 &
+          CSS3.`
+            : `Cubo tridimensional animado que cambia de color, desarrollado con HTML5 & CSS3.`}
         </p>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://materadiego.github.io/cube-animation2/"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
       <div className="DevelopmentBoxContainer-Box">
@@ -110,15 +116,17 @@ export default function DevelopedAnimations() {
           Bg Animation
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Animation developed using HTML5 & CSS3.
+          {langEn
+            ? `Background animation developed using HTML5 & CSS3.`
+            : `Animación de fondo desarrollada con HTML5 & CSS3.`}
         </p>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://materadiego.github.io/prueba-animacion-css/"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
     </div>
