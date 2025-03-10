@@ -8,18 +8,18 @@
 .SkillsParallaxContent,
 .SkillsParallaxContent-Overlay,
 .SkillsContentContainer {
-  height: 310vw;
+  height: 365vw;
 }
 
 .SkillOverlay-Parallax-Container {
-  height: 310vw;
-  margin-top: -310vw;
+  height: 365vw;
+  margin-top: -365vw;
 }
 
 .SkillsContentContainer {
   display: flex;
   justify-content: center;
-  padding-top: 30vw;
+  padding-top: 10vw;
 }
 
 @media screen and (min-width: 1099px) {

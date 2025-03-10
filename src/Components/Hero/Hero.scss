@@ -3,83 +3,37 @@
   width: 100%;
 }
 
-.Background-Parallax-Container {
-  height: 140vw;
-}
-
-.Mountain-Parallax-Container {
-  height: 140vw;
-  margin-top: -140vw;
-}
-
-.Overlay-Parallax-Container {
-  height: 140vw;
-  margin-top: -140vw;
-}
-
-.HeroParallaxContent,
-.HeroParallaxContent-Mountain,
-.HeroParallaxContent-Overlay {
-  height: 140vw;
+.HeroContainer {
+  padding: 18vw 0 15vw;
 }
 
 .HeroParallaxContent-Title {
-  position: absolute;
   width: 70vw;
-  margin: 0 15vw;
+  margin: 4vw 15vw 4vw;
   top: 26vw;
   color: $color-white;
 }
 
 .HeroParallaxContent-Title.Title {
-  font-size: 6vw;
+  font-size: 6.2vw;
 }
 
 .HeroParallaxContent-Text {
-  position: absolute;
   width: 70vw;
-  margin: 0 15vw;
+  margin: 0 15vw 3vw;
   top: 39vw;
-  color: white;
+  font-size: 3.4vw;
   color: $color-white;
 }
 
-.HeroButton {
-  position: absolute;
-  margin-left: 15vw;
-  top: 63vw;
-  text-decoration: none;
-}
-
-.Overlay-Parallax-Container.Desktop {
-  display: none;
-}
 @media screen and (min-width: 1099px) {
-  .Background-Parallax-Container {
-    height: 50vw;
-  }
-
-  .Mountain-Parallax-Container {
-    height: 50vw;
-    margin-top: -50vw;
-  }
-
-  .Overlay-Parallax-Container {
-    height: 50vw;
-    margin-top: -50vw;
-  }
-
-  .HeroParallaxContent,
-  .HeroParallaxContent-Mountain,
-  .HeroParallaxContent-Overlay {
-    height: 50vw;
+  .HeroContainer {
+    padding: 2vw 0 0;
   }
 
   .HeroParallaxContent-Title {
-    width: 39vw;
-    left: 4vw;
-    top: 2vw;
-    margin: 0;
+    width: 80%;
+    margin: 0 auto;
     padding: 1vw 0;
     color: $color-white;
   }
@@ -89,24 +43,11 @@
   }
 
   .HeroParallaxContent-Text {
-    width: 34vw;
-    left: 4vw;
-    margin: 0;
-    top: 9.5vw;
+    width: 80%;
+    margin: 1vw auto;
   }
 
   .HeroParallaxContent-Text.Text {
     font-size: 1.2vw;
-  }
-
-  .HeroButton {
-    position: absolute;
-    margin-left: 0;
-    left: 4vw;
-    top: 14.5vw;
-    text-decoration: none;
-  }
-  .Overlay-Parallax-Container.Desktop {
-    display: block;
   }
 }

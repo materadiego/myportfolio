@@ -5,7 +5,7 @@ import developmenticon from "../../Assets/Images/development-icon2.png";
 import myTask from "../../Assets/Images/favicon-mytask.png";
 import cocinas from "../../Assets/Images/favicon-co.png";
 
-export default function DevelopedProjects() {
+export default function DevelopedProjects({ langEn }) {
   return (
     <div className="DevelopmentBoxContainer">
       {/* PROJECT */}
@@ -27,16 +27,17 @@ export default function DevelopedProjects() {
           MyTask App
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          App focused on recording pending tasks & setting priorities. Deveolped
-          using ReactJS.
+          {langEn
+            ? "App focused on recording pending tasks & setting priorities. Deveolped using ReactJS."
+            : "App enfocada en registrar tareas pendientes y establecer prioridades. Desarrollada con ReactJS."}
         </p>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://materadiego.github.io/curso-react-intro/"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
 
@@ -59,16 +60,18 @@ export default function DevelopedProjects() {
           Vernal Studio
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Graphic design, marketing, UX/UI agency. Single-page application built
-          using ReactJS & Sass.
+          {langEn
+            ? "Graphic design, marketing, UX/UI agency. Single-page application built using ReactJS & Sass."
+            : "Agencia de diseño gráfico, marketing, UX/UI. Aplicación de una sola página construida con ReactJS y Sass."}
         </p>
+
         <a
           href="https://materadiego.github.io/vernal-studio/#/home"
           target="_blank"
           rel="noreferrer"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
       {/* PROJECT */}
@@ -90,16 +93,17 @@ export default function DevelopedProjects() {
           Aura Films
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Personal project developed in API-Rest course. Movie search App
-          developed using Axios, aplying loading skeletons & infinite scrolling
+          {langEn
+            ? " Movie search App developed using Axios, aplying loading skeletons & infinite scrolling"
+            : " Aplicación de búsqueda de películas desarrollada con Axios, aplicando esqueletos de carga y desplazamiento infinito."}
         </p>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://materadiego.github.io/aura-films/"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
       {/* PROJECT */}
@@ -121,16 +125,17 @@ export default function DevelopedProjects() {
           Tu Espacio
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Interior design company. Single-page application built using ReactJS &
-          Sass.
+          {langEn
+            ? "Interior design company. Single-page application built using ReactJS & Sass."
+            : "Empresa de diseño de interiores. Aplicación de una sola página construida con ReactJS y Sass."}
         </p>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://materadiego.github.io/tu-espacio-react/"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
       {/* PROJECT */}
@@ -152,16 +157,17 @@ export default function DevelopedProjects() {
           Daleplast
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          Plastic products manufacturer in Tierra del Fuego, Argentina.
-          Single-page application built using ReactJS & Sass
+          {langEn
+            ? "Plastic products manufacturer in Tierra del Fuego, Argentina. Single-page application built using ReactJS & Sass"
+            : "Fabricante de productos plásticos en Tierra del Fuego, Argentina. Aplicación de una sola página construida con ReactJS y Sass."}
         </p>
         <a
           target="_blank"
           rel="noreferrer"
           href="http://www.daleplast.com.ar/"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
       {/* PROJECT */}
@@ -183,16 +189,17 @@ export default function DevelopedProjects() {
           Cocinas Ocultas
         </p>
         <p className="DevelopmentBoxContainer-Description">
-          A venture located in Uruguay dedicated to the gastronomic industry.
-          Developed using HTML, CSS & Javascript.
+          {langEn
+            ? "A venture located in Uruguay dedicated to the gastronomic industry. Developed using HTML, CSS & Javascript."
+            : "Un emprendimiento ubicado en Uruguay dedicado a la industria gastronómica. Desarrollado con HTML, CSS y Javascript."}
         </p>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://materadiego.github.io/cocinas-ocultas/"
-          className="Button Project-Button"
+          className="Button Project-Button  Button__big Button__blue"
         >
-          project
+          {langEn ? "project" : "proyecto"}
         </a>
       </div>
     </div>

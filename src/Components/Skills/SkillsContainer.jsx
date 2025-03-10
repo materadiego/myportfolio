@@ -8,57 +8,20 @@ import ghub from "../../Assets/Images/github.png";
 import react from "../../Assets/Images/react.png";
 import ps from "../../Assets/Images/ps.png";
 import webpack from "../../Assets/Images/webpack.png";
+import next from "../../Assets/Images/next.png";
+import premiere from "../../Assets/Images/premiere.png";
+import nest from "../../Assets/Images/nest.png";
+import firebase from "../../Assets/Images/firebase.png";
+import anime from "../../Assets/Images/anime.png";
 
-export default function SkillsContainer() {
+export default function SkillsContainer({ langEn }) {
   return (
     <div className="SkillsContentWrapper SectionContainer">
       <p className="SkillsTitle Title SectionTitle">
-        <img src={icon} alt="Skills"></img>My Skills
+        <img src={icon} alt="Skills"></img>
+        {langEn ? "My Skills" : "Aptitudes"}
       </p>
       <div className="SkillsBoxContainer">
-        {/* Box */}
-        <div className="SkillBoxWrapper">
-          <div className="SkillBox">
-            <div className="SkillBox-ImageContainer">
-              <img className="SkillBox-Image HTML" src={html} alt="HTML"></img>
-            </div>
-            <p className="SkillBox-Title Text">HTML</p>
-          </div>
-        </div>
-        {/* Box */}
-        <div className="SkillBoxWrapper">
-          <div className="SkillBox">
-            <div className="SkillBox-ImageContainer">
-              <img className="SkillBox-Image Css" src={css} alt="CSS"></img>
-            </div>
-            <p className="SkillBox-Title Text ">CSS</p>
-          </div>
-        </div>
-
-        {/* Box */}
-        <div className="SkillBoxWrapper">
-          <div className="SkillBox">
-            <div className="SkillBox-ImageContainer">
-              <img className="SkillBox-Image Sass" src={sass} alt="Sass"></img>
-            </div>
-            <p className="SkillBox-Title Text">Sass</p>
-          </div>
-        </div>
-
-        {/* Box */}
-        <div className="SkillBoxWrapper">
-          <div className="SkillBox">
-            <div className="SkillBox-ImageContainer">
-              <img
-                className="SkillBox-Image Rd"
-                src={rDesign}
-                alt="Responsive"
-              ></img>
-            </div>
-            <p className="SkillBox-Title Text">Responsive</p>
-          </div>
-        </div>
-
         {/* Box */}
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
@@ -86,19 +49,93 @@ export default function SkillsContainer() {
             <p className="SkillBox-Title Text">ReactJS</p>
           </div>
         </div>
+
+        {/* Box */}
+        <div className="SkillBoxWrapper">
+          <div className="SkillBox">
+            <div className="SkillBox-ImageContainer">
+              <img
+                className="SkillBox-Image Ps"
+                src={next}
+                alt="Photoshop"
+              ></img>
+            </div>
+            <p className="SkillBox-Title Text">Nextjs</p>
+          </div>
+        </div>
+        {/* Box */}
+        <div className="SkillBoxWrapper">
+          <div className="SkillBox">
+            <div className="SkillBox-ImageContainer">
+              <img className="SkillBox-Image Css" src={css} alt="CSS"></img>
+            </div>
+            <p className="SkillBox-Title Text ">CSS</p>
+          </div>
+        </div>
+
+        {/* Box */}
+        <div className="SkillBoxWrapper">
+          <div className="SkillBox">
+            <div className="SkillBox-ImageContainer">
+              <img className="SkillBox-Image Sass" src={sass} alt="Sass"></img>
+            </div>
+            <p className="SkillBox-Title Text">Sass</p>
+          </div>
+        </div>
         {/* Box */}
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
             <div className="SkillBox-ImageContainer">
               <img
                 className="SkillBox-Image Webpack"
-                src={webpack}
-                alt="Webpack"
+                src={anime}
+                alt="animejs"
               ></img>
             </div>
-            <p className="SkillBox-Title Text">Webpack</p>
+            <p className="SkillBox-Title Text">Anime.js</p>
           </div>
         </div>
+
+        {/* Box */}
+        <div className="SkillBoxWrapper">
+          <div className="SkillBox">
+            <div className="SkillBox-ImageContainer">
+              <img
+                className="SkillBox-Image Rd"
+                src={rDesign}
+                alt="Responsive"
+              ></img>
+            </div>
+            <p className="SkillBox-Title Text">Responsive</p>
+          </div>
+        </div>
+        {/* Box */}
+        <div className="SkillBoxWrapper">
+          <div className="SkillBox">
+            <div className="SkillBox-ImageContainer">
+              <img
+                className="SkillBox-Image Ps"
+                src={nest}
+                alt="Photoshop"
+              ></img>
+            </div>
+            <p className="SkillBox-Title Text">NestJs</p>
+          </div>
+        </div>
+        {/* Box */}
+        <div className="SkillBoxWrapper">
+          <div className="SkillBox">
+            <div className="SkillBox-ImageContainer">
+              <img
+                className="SkillBox-Image Ps"
+                src={firebase}
+                alt="Photoshop"
+              ></img>
+            </div>
+            <p className="SkillBox-Title Text">Firebase</p>
+          </div>
+        </div>
+
         {/* Box */}
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
@@ -108,7 +145,6 @@ export default function SkillsContainer() {
             <p className="SkillBox-Title Text">GitHub</p>
           </div>
         </div>
-
         {/* Box */}
         <div className="SkillBoxWrapper">
           <div className="SkillBox">
@@ -116,6 +152,20 @@ export default function SkillsContainer() {
               <img className="SkillBox-Image Ps" src={ps} alt="Photoshop"></img>
             </div>
             <p className="SkillBox-Title Text">Photoshop</p>
+          </div>
+        </div>
+
+        {/* Box */}
+        <div className="SkillBoxWrapper">
+          <div className="SkillBox">
+            <div className="SkillBox-ImageContainer">
+              <img
+                className="SkillBox-Image Ps"
+                src={premiere}
+                alt="Photoshop"
+              ></img>
+            </div>
+            <p className="SkillBox-Title Text">Premiere</p>
           </div>
         </div>
       </div>

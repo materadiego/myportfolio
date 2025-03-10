@@ -4,7 +4,7 @@ import youtube from "../../Assets/Images/socialmedia-yt.png";
 import Loader from "../../Assets/Images/loader.svg";
 import { useState } from "react";
 
-export default function ContactContainer() {
+export default function ContactContainer({ langEn }) {
   const [response, setResponse] = useState("");
   const [datos, setDatos] = useState({
     Name: "",
@@ -53,19 +53,19 @@ export default function ContactContainer() {
   };
   return (
     <div className="ContactSectionContainer">
-      <div className="ShadowContainer ShadowContainer__TopRight">
-        <div className="ShadowContainerShadow ShadowContainerShadow__TopLeft "></div>
-      </div>
-      <div className="ShadowContainer ShadowContainer__TopLeft">
-        <div className="ShadowContainerShadow ShadowContainerShadow__TopRight"></div>
-      </div>
       <div className="ContactContainer">
         <div className="ContactContainer-Subcontainer">
-          <h4 className="ContactContainer-Title Title">Contact</h4>
+          <h4 className="ContactContainer-Title Title">
+            {langEn ? "Contact" : "Contacto"}
+          </h4>
           <p className="ContactContainer-Text Text">
-            For more information you can send me an email through the next form.
+            {langEn
+              ? "For more information you can send me an email through the next form."
+              : "Para más información puedes enviarme un email a través del siguiente formulario."}
           </p>
-          <h4 className="ContactContainer-Title Title">Social Media</h4>
+          <h4 className="ContactContainer-Title Title">
+            {langEn ? "Social Media" : "Redes sociales"}{" "}
+          </h4>
           <div className="ContactContainer-MediaContainer">
             <a
               target="_blank"
@@ -106,7 +106,9 @@ export default function ContactContainer() {
           </div>
         </div>
         <form className="ContactForm" onSubmit={enviarDatos}>
-          <label className="ContactForm-Label">Name:</label>
+          <label className="ContactForm-Label">
+            {langEn ? "Name: " : "Nombre: "}
+          </label>
           <input
             maxLength={2000}
             type="text"
@@ -115,7 +117,7 @@ export default function ContactContainer() {
             value={datos.Name}
             required
             className="ContactForm-Input"
-            placeholder="Your name"
+            placeholder={`${langEn ? "Your name" : "Tu nombre"}`}
           ></input>
           <label className="ContactForm-Label">Email:</label>
           <input
@@ -126,9 +128,13 @@ export default function ContactContainer() {
             value={datos.Mail}
             required
             className="ContactForm-Input"
-            placeholder="youremail@email.com"
+            placeholder={`${
+              langEn ? "youremail@email.com" : "tumail@email.com"
+            }`}
           ></input>
-          <label className="ContactForm-Label">Message:</label>
+          <label className="ContactForm-Label">
+            {langEn ? "Message: " : "Mensaje: "}
+          </label>
           <textarea
             type="text"
             name="Message"
@@ -137,19 +143,18 @@ export default function ContactContainer() {
             required
             maxLength={2000}
             className="ContactForm-TextArea"
-            placeholder="¡Hello! My name is..."
+            placeholder={`${
+              langEn ? "¡Hello! My name is..." : "Hola! Mi nombre es.."
+            }`}
           ></textarea>
-          <button type="submit" className="ContactForm-Button Button">
-            Submit
+          <button
+            type="submit"
+            className="ContactForm-Button Button Button__big Button__blue"
+          >
+            {langEn ? "Send" : "Enviar"}
           </button>
           <div className="ContactResponseContainer">{response}</div>
         </form>
-      </div>
-      <div className="ShadowContainer ShadowContainer__BottomRight">
-        <div className="ShadowContainerShadow ShadowContainerShadow__BottomLeft "></div>
-      </div>
-      <div className="ShadowContainer ShadowContainer__BottomLeft">
-        <div className="ShadowContainerShadow ShadowContainerShadow__BottomRight"></div>
       </div>
     </div>
   );
