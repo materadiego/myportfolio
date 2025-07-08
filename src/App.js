@@ -1,23 +1,48 @@
-import { useState } from "react";
-import Container from "./Components/Container/Container";
-import NavBar from "./Components/NavBar/NavBar";
+import { useEffect, useState } from "react";
+import { Content } from "./Components/Content";
+import { Presentation } from "./Components/Presentation";
 import "./scss/Styles.scss";
 
 function App() {
-  const [langEn, setLangEn] = useState(true);
-  const [menuOpen, setMenuOpen] = useState(false);
-  return (
-    <div className="App">
-      <NavBar
-        langEn={langEn}
-        setLangEn={setLangEn}
-        menuOpen={menuOpen}
-        setMenuOpen={setMenuOpen}
-      />
+  const [view, setView] = useState("presentation");
+  const [english, setEnglish] = useState(true);
+  const toggleLanguage = () => {
+    setEnglish(!english);
+  };
+  const renderView = (view) => {
+    console.log(view);
+    switch (view) {
+      case "content":
+        return (
+          <Content
+            setView={setView}
+            english={english}
+            toggleLanguage={toggleLanguage}
+          />
+        );
+      case "hero":
+        return (
+          <Presentation
+            setView={setView}
+            english={english}
+            toggleLanguage={toggleLanguage}
+          />
+        );
+      default:
+        return (
+          <Presentation
+            setView={setView}
+            english={english}
+            toggleLanguage={toggleLanguage}
+          />
+        );
+    }
+  };
 
-      <Container langEn={langEn} />
-    </div>
-  );
+  useEffect(() => {
+    renderView(view);
+  }, [view]);
+  return <div className="App">{renderView(view)}</div>;
 }
 
 export default App;
